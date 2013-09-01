@@ -1,7 +1,7 @@
 time_hover
 ==========
 
-jQuery plugin that use timeOut and hover to make an easier hoverIntent
+JQuery plugin that use doTimeout plugin and jQuery hover to make an easier hoverIntent
 
 Requeriments
 ------------
