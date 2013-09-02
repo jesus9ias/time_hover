@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$(".menu").hover(
+		function(){
+			$(this).time_on(".sub_menu",250,function(){
+				$(this).slideDown('fast');
+			});
+		},function(){
+			$(this).time_out(".sub_menu",250,function(){
+				$(this).slideUp('fast');
+			});
+		}
+	);
+});
